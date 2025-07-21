@@ -1,0 +1,140 @@
+/* === General Reset and base ===*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: boarder box;
+}
+
+body {
+font-family:Arial, Helvetica, sans-serif ;
+background-color:#fdfdfd;
+color: #333;
+line-height:2;
+padding: 0px;
+}
+/* === Header and Navigation ===*/
+header{
+    background-color:rgb(222, 184, 135);
+    color:black;
+    font-weight: 400px;
+    padding: 20px 15px;
+    text-align:center ;
+}
+.lists{
+    align-items: center;
+    margin-left: 00px;
+}
+nav{
+    margin-top: 10px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+/* ===  other home properties === */
+.about{
+    background-color: #fdfdfd;
+}
+.doing{
+    box-shadow: 0 2px 5px rgba(0,0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fdfdfd;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* === main content === */
+
+main{
+    padding: 30px 15px;
+    
+    
+
+}
+h2{
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 200px;
+    
+    
+    
+}
+p{
+  margin-bottom: 20px;
+  background-color: burlywood;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0, 0, 0.1);
+    margin-left: 10px;
+}
+.list{
+    background-color: burlywood;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+   
+    
+}
+  
+   
+}
+
+/* === portfolio Grid === */
+
+portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap:20px;
+
+}
+
+.project{
+    background-color:burlywood;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0, 0, 0.1);
+}
+.project img {
+    width: 70%;
+    height: auto;
+    boarder-radius: 5px;
+}
+/* === form styling ===*/
+form{
+    background-color:burlywood;
+    padding: 20px;
+    max-width: 600px;
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px;
+}
+input{
+    margin-top: -150px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    background-color:light gray;
+}
+textarea{
+   width:100%;
+   height: 100px;
+   padding: 10px;
+   border-radius: 6px;
+   }
+   /* === footer ===*/
+
+
+   
+
+
