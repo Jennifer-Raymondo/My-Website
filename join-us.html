@@ -1,54 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOIN US - Jennspace interiors</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Us — Jennspace Interiors</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>JENNSPACE INTERIORS</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="company.html">company</a>
-            <a href="portfolio.html">portfolio</a>
-            <a href="join-us.html">join us</a>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <h2>Join Our Team</h2>
-            <p>we are always excited to meet new creative snd skilled minds! Fill out the form below if you would love to join our team at Jennspace interiors.</p>
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">JENN<span>SPACE</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="company.html">Company</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="join-us.html" class="active">Join Us</a></li>
+    </ul>
+  </nav>
 
-            <form action="#" method="post">
-<label for="name">Full Name:</label>
-<input type="text" id="name" name="name" required ><br>
+  <!-- SPLIT LAYOUT -->
+  <div class="join-layout">
 
+    <!-- LEFT: Image + Text -->
+    <div class="join-left">
+      <div class="join-left-text">
+        <p class="section-label">We're Growing</p>
+        <div class="gold-rule left"></div>
+        <h2>Bring Your Creativity To Our Studio</h2>
+        <p>We're always excited to meet passionate, skilled designers who want to craft spaces that truly matter. If that's you — let's talk.</p>
+      </div>
+    </div>
 
-<label for="email">Email Address:</label>
-<input type="email" id="email" name="email" required><br>
+    <!-- RIGHT: Form -->
+    <div class="join-right">
+      <p class="section-label">Apply Now</p>
+      <h3>Tell Us About Yourself</h3>
 
-<label for="phone">Phone Number</label>
-<input type="tel" id="phone" name="phone" required><br>
+      <form action="#" method="post">
 
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required>
+        </div>
 
-<label for="position">position or skills </label>
-<input type="text" id="position" name="position" placeholder="e.g interior designer">
-<br>
-<br>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
 
-<label for="message"> <i>why do you want to join us?</i></label>  
-<textarea id="message" name="message" rows="5" placeholder="your message......"></textarea><br><br>
-<button type="submit">submit Application</button><br>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="+256 700 000 000" required>
+        </div>
 
-            </form>
-        </section>
-    </main>
+        <div class="form-group">
+          <label for="position">Role or Skills</label>
+          <input type="text" id="position" name="position" placeholder="e.g. Interior Designer, 3D Visualiser">
+        </div>
 
-    <footer>
-        <p>2025 Jennspace interiors.All rights reserved</p>
-    </footer>
+        <div class="form-group">
+          <label for="message">Why Do You Want to Join Us?</label>
+          <textarea id="message" name="message" placeholder="Tell us what drives your passion for design..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-solid" style="width:100%; text-align:center; font-family:'Inter',sans-serif; border:none; cursor:pointer; color: var(--forest);">
+          Submit Application
+        </button>
+
+      </form>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">JENN<span>SPACE</span> INTERIORS</div>
+    <p>&copy; 2025 Jennspace Interiors. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>

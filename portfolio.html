@@ -1,46 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO JENNSPACES</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Jennspace Interiors</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>JENNSPACE INTERIORS</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="company.html">company</a>
-            <a href="portfolio.html">portfolio</a>
-            <a href="join-us.html">join us</a>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-<h2>Our Design Work</h2>
-<p>Here are some of the beautiful and breathe taking spaces we have worked on or designed for different clients.</p>
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">JENN<span>SPACE</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="company.html">Company</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="join-us.html">Join Us</a></li>
+    </ul>
+  </nav>
 
-<div class="portfolio grid">
-<div class="project">
-    <h3>Office Space Layout</h3>
-    <p>This office layout project aimed to transform a small, outdated workplace into a simple, moderen and efficient environment.</p>
- <img src="https://i.pinimg.com/1200x/7d/54/65/7d5465cb4d3d63b5d86bcaf6d25b4236.jpg" alt="Office workspace layout" width="400px">
- 
- <h3>Mordern Living Room</h3>
- <p>This modern living room was designed to balance elegance and comfort, to create a warm and inviting space perfect for both relaxation and entertaining.
+  <!-- PAGE HERO -->
+  <section class="page-hero" style="background-image: url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1600&q=80');">
+    <div class="page-hero-content">
+      <p class="section-label">Our Work</p>
+      <h1>Selected Projects</h1>
+      <p>A collection of spaces we've had the privilege of transforming.</p>
+    </div>
+  </section>
 
- </p>
-<img src="https://i.pinimg.com/1200x/b8/82/c0/b882c01bbe910f9d5bf396b5dddefda8.jpg" alt="Mordern living room" width="400px">
+  <!-- PORTFOLIO INTRO -->
+  <div class="portfolio-intro" style="padding-top: 64px;">
+    <p class="section-label">Hover to Explore</p>
+    <div class="gold-rule"></div>
+    <h2>Spaces We've Brought to Life</h2>
+    <p>From intimate home interiors to high-end boutique stores — each project tells a unique story. Hover over each image to learn more.</p>
+  </div>
 
-<h3>Boutique Store</h3>
-<p>This boutique store was desingned with a clean and mordern layout to create a calm and inviting environment and atmosphere for clients.</p>
-<img src="https://i.pinimg.com/736x/00/3c/77/003c772db4e7fe623a07a6c25c5b75c3.jpg" alt="Boutique store" width="400px">
-</div><br>
-<p>2025 Jennspace interiors. all rights reserved.</p>
+  <!-- GRID -->
+  <div class="projects-grid">
 
-        </section>
-    </main>
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80" alt="Open-plan office design">
+      <div class="project-overlay">
+        <div class="project-info">
+          <h3>Modern Office Layout</h3>
+          <p>An open-plan workspace redesigned for focus, flow, and team collaboration.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&q=80" alt="Luxury living room interior">
+      <div class="project-overlay">
+        <div class="project-info">
+          <h3>Luxury Living Room</h3>
+          <p>A warm, editorial living space balancing elegance with everyday comfort.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=800&q=80" alt="Boutique retail store interior">
+      <div class="project-overlay">
+        <div class="project-info">
+          <h3>Boutique Retail Store</h3>
+          <p>A clean, curated retail environment designed to enchant and invite.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80" alt="Serene bedroom design">
+      <div class="project-overlay">
+        <div class="project-info">
+          <h3>Serene Master Bedroom</h3>
+          <p>A sanctuary bedroom combining soft textures and natural light for restful retreat.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80" alt="Contemporary kitchen design">
+      <div class="project-overlay">
+        <div class="project-info">
+          <h3>Contemporary Kitchen</h3>
+          <p>Sleek cabinetry and thoughtful layout creating a chef's kitchen with character.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=800&q=80" alt="Home dining room design">
+      <div class="project-overlay">
+        <div class="project-info">
+          <h3>Intimate Dining Room</h3>
+          <p>A table-centred dining space styled for warm evenings and great conversations.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- CTA -->
+  <div style="text-align:center; padding: 0 24px 80px;">
+    <p class="section-label">Ready to Start?</p>
+    <div class="gold-rule"></div>
+    <a href="join-us.html" class="btn btn-solid" style="color: var(--forest);">Work With Us</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">JENN<span>SPACE</span> INTERIORS</div>
+    <p>&copy; 2025 Jennspace Interiors. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
